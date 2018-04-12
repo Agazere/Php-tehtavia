@@ -4,3 +4,16 @@
  <input type="number" name="tahti" />
  <p><input type="submit" /></p>
 </form>
+
+<?php
+$maara = intval($_POST['tahti']);
+$maara++;
+
+for ($i = 1; $i < $maara; $i++) {
+  for ($stars = 1; $stars <= $i; $stars++) {
+
+  echo "*";
+}
+echo "<br/>";
+}
+?>
