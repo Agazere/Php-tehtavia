@@ -13,12 +13,11 @@ $maara++;
 
 for ($i = 1; $i < $maara; $i++) {
   for ($stars = 1; $stars <= $i; $stars++) {
-
   echo "*";
-}
-echo "<br/>";
+} echo "<br/>";
 }
 ?>
+
 </footer>
 </body>
 
