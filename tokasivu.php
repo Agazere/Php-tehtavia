@@ -4,8 +4,8 @@
   <p>Welcome!</p>
 </header>
 </body>
-<style>
 
+<style>
 body {
   background-color: #435f8c;
 }
