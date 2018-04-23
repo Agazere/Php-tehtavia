@@ -3,7 +3,6 @@ setcookie("koodi", "kissa");
 ?>
 
 <body>
-
 <form action="Katja_kirjautumisjarjestelma.php" method="post">
 <h4>Kirjautumislomake</h4>
  <p>Kirjaudu sisään:</p>
@@ -13,7 +12,6 @@ setcookie("koodi", "kissa");
 </form>
 
 <footer>
-
 <?php
 $koodi = $_COOKIE["koodi"];
 
@@ -24,7 +22,6 @@ if (!empty($_POST['salasana']) AND ($_POST['salasana'] == $koodi)) {
   echo "Väärä salasana!";
 }
 ?>
-
 </footer>
 </body>
 
